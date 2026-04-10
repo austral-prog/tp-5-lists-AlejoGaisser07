@@ -10,4 +10,8 @@ def is_empty(lista):
     Returns:
         True si la lista está vacía, False en caso contrario
     """
-    pass  # Reemplazar con tu implementación
+    quant = len(lista)
+    if quant == 0:
+        return True
+    else:
+        return False
